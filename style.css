@@ -1,0 +1,190 @@
+.Login-background {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 820px;
+    height: 460px;
+    border-radius: 21px;
+    opacity: 1;
+    border: 1px solid rgba(166, 166, 166, 1);
+    background: url("images/background.png");
+    background-size: 820px;
+}
+.Login-background .Login-tips{
+    background-color: rgba(1, 1, 1, 0.61);
+    position: fixed;
+    font-size: 50px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.Login-background .refreshQRcode{
+    position: fixed;
+    width: 155px;
+    top: 170px;
+    left: 140px;
+    display: none;
+}
+.Login-background .Login-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Login-background .Login-main .Login-right{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    margin: 52px 3px 100px;
+}
+.Login-background .Login-main .QRcode{
+    width: 170px;
+    border: 1px;
+    height: 220px;
+    margin: 95px 132px;
+}
+.Login-background .Login-main .QRcode .QRcode-text{
+    font-size: 24px;
+    width: 170px;
+    margin: 14px 0;
+    color: white;
+}
+.Login-background .Login-main .QRcode .QRcode-img{
+    width: 155px;
+    height: 155px;
+    border: 1px;
+    margin: 14px 7.5px;
+}
+.Login-background .Login-main .Login-right .email-tips{
+    width:230px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(1, 1, 1, 0.61);
+    color: white;
+    display: none;
+}
+.Login-background .Login-main .Login-right .Login-method{
+    width: 230px;
+    margin: 13px 66px;
+}
+.Login-background .Login-main .Login-right .Login-method:hover{
+    cursor: pointer;
+}
+.Login-background .Login-main .Login-right .Login-method .Login-psw{
+    color: #558BC9;
+}
+.Login-background .Login-main .Login-right .Login-method,
+.Login-other{
+    display: flex;
+    flex-direction: row;
+    line-height: 33px;
+}
+.Login-background .Login-main .Login-right .Login-method{
+    font-size: 24px;
+}
+.Login-background .Login-main .Login-right .Login-other{
+    font-size: 13px;
+    height: 28px;
+    width: 280px;
+    line-height: 28px;
+    align-content: center;
+    margin: 0 41px;
+}
+.Login-background .Login-main .Login-right .Login-other .Wechat,
+.Weibo,
+.QQ{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 1px;
+}
+.getVercode{
+    color: #558BC9;
+}
+.Login-background .Login-main .Login-right .username,
+.password,
+.email,
+.vercode{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-size: 18px;
+    width: 312px;
+    height: 45px;
+    border-radius: 23px;
+    border: 0;
+    background-color: #E5E5E5;
+    line-height: 45px;
+    margin: 13px 25px 26px;
+    padding: 0;
+}
+.display{
+    display: none;
+}
+.Login-background .Login-main .Login-right .username input,
+.password input,
+.email input,
+.vercode input{
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    outline-style: none;
+}
+.Login-background .Login-main .Login-right .username .username-text,
+.password .password-text,
+.email .email-text
+{
+    margin: 0 23px;
+}
+.Login-background .Login-main .Login-right .vercode .vercode-text{
+    margin: 0 14px;
+}
+.Login-background .Login-main .Login-right .Login-input img{
+    width: 20px;
+    height: 18px;
+    border-radius: 5px;
+    margin: 13.5px 2px;
+}
+.Login-background .Login-main .Login-right .Login-input img:hover{
+    background-color: #A6A6A6;
+}
+.Login-background .Login-main .Login-right .password .forget,
+.getVercode{
+    font-size: 13px;
+}
+.Login-background .Login-main .Login-right .Login-other-text{
+    font-size: 13px;
+    color: #A6A6A6;
+}
+.Login-background .Login-main .Login-right .Login-other img{
+    width: 28px;
+    font-size: 13px;
+    margin: 0 6px;
+}
+.Login-background .Login-main .Login-right .Login-button .loginregist{
+    width: 244px;
+    height: 45px;
+    border-radius: 23px;
+    border: none;
+    background-color: #558BC9;
+    font-size: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25), 0 2px 4px 0 rgba(0,0,0,0.25);
+}
+.Login-background .tips{
+    margin: -87px 220px;
+    font-size: 16px;
+}
+.Login-background .tips .tips1{
+    width: 310px;
+    margin: 0 33px;
+}
+a{
+    text-decoration: none;
+    color: #558BC9;
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <title>Login</title>
+</head>
+<body>
+<div class="Login-background">
+    <div class="Login-tips">11</div>
+    <div class="blue"></div>
+    <div class="Login-main">
+        <div class="QRcode">
+            <div ><img class="refreshQRcode" id="refreshQRcode" src="images/refreshQRcode.png" ></div>
+            <div class="QRcode-text">扫描二维码登录</div>
+            <img src="images/QRcode.png" class="QRcode-img">
+        </div>
+        <div class="Login-right">
+            <div class="email-tips" id="email-tips">
+                您可以通过邮箱注册,用户名默认为您的邮箱,密码默认123456,稍后您可在设置中更改
+                <button id="ok">确定</button>
+            </div>
+            <div class="Login-method">
+                <div class="Login-psw">密码登陆 </div>
+                &nbsp;&nbsp;/&nbsp;&nbsp;
+                <div class="Login-email"> 邮箱登陆</div>
+            </div>
+            <form class="Login-input" method="post">
+                <div class="psw-box">
+                    <div class="username">
+                        <div class="username-text">  账号</div>
+                        <input type="text" name="username" placeholder="请输入账号" id="usn">
+                    </div>
+                    <div class="password">
+                        <div class="password-text">  密码</div>
+                        <input type="password" name="password" placeholder="请输入密码" id="psw">
+                        <img src="images/hide.png" id="dis-hid-psw">
+                        <div class="forget"><a href="">忘记密码</a></div>
+                    </div>
+                </div>
+                <div class="email-box display">
+                    <div class="email">
+                        <div class="email-text">  邮箱</div>
+                        <input type="text" name="email" placeholder="请输入邮箱" id="email">
+                        <div class="getVercode">获取验证码</div>
+                    </div>
+                    <div class="vercode">
+                        <div class="vercode-text">  验证码</div>
+                        <input type="text" name="vercode" placeholder="请输入验证码" id="ver">
+                    </div>
+                </div>
+                <div class="Login-button">
+                    <div class="loginregist" id="logreg">登录 / 注册</div>
+                </div>
+            </form>
+            <p class="Login-other-text">其他方式登录</p>
+            <div class="Login-other">
+                <div class="Wechat">
+                    <img src="images/wechat.png">
+                    <div>微信登录</div>
+                </div>
+                <div class="Weibo">
+                    <img src="images/weibo.png">
+                    <div>微博登录</div>
+                </div>
+                <div class="QQ">
+                    <img src="images/qq.png">
+                    <div>QQ登录</div>
+                </div>
+            </div>
+    </div>
+    </div>
+    <div class="tips">
+        <div class="tips1">未注册过的手机号,我们将自动帮您注册账号</div>
+        <div class="tips2">
+            登录或完成注册即代表您同意<a href=""> 用户协议 </a>和<a href=""> 隐私政策 </a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
